@@ -1,0 +1,163 @@
+/* You can add global styles to this file, and also import other style files */
+* [lang^=en] {
+  color: green;
+}
+
+.body{
+  background-color: #E3D9D1;
+  min-height: calc(100vh - 50px);
+  padding: 40px 40px 0 40px;
+}
+
+.dropdown-menu{
+  background-color: #8C503A;
+  font-weight: bold;
+}
+
+.navbar-expand-md .navbar-nav .nav-link{
+  text-align: center;
+  background-color: #8C503A;
+  font-size:large;
+  border: 0px;
+}
+.navbarDropdown{
+  text-align: center;
+  background-color: #8C503A;
+  font-size:large;
+  border: 0px;
+}
+
+nav.navbar-museum {
+  text-align: center;
+  background-color: #8C503A;
+  font-size:large
+}
+
+.navbar-brand{
+    color: rgba(255, 255, 255, 0.801) !important;
+    font-weight: bold;
+}
+.nav-link, .dropdown-item {
+  color: rgb(255, 255, 255) !important;
+  background-color: #8C503A;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+    color: rgba(255, 255, 255, 0.774) !important;
+    background-color: #8C503A;
+    font-weight: bold;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  padding-right: 10px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: beige;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: rgba(255, 255, 255, 0.774) !important;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: rgba(255, 255, 255, 0.774) !important;
+}
+
+/* Instagram */
+.fa-instagram {
+  color: rgba(255, 255, 255, 0.774) !important;
+}
+
+/* card styles */
+.card-body{
+  background-color: #024059;
+  color: white;
+}
+
+.card-image-font{
+  background-color: #868F96;
+}
+
+.card{
+  margin: auto;
+}
+
+div#detalle.card {
+  background-color: #E3D9D1;
+  color: #024059;
+
+}
+
+div#detalle.card-body {
+  background-color: #E3D9D1;
+  color: #024059;
+
+}
+
+div.container-detalle {
+  background-color: #E3D9D1;
+  width: 50%;
+
+}
+
+
+div.top {
+  width: 100%;
+  bottom: 10px;
+}
+
+div.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+div.center {
+  width: 100%;
+  top: 5px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+div {
+  flex: 1;
+}
+
+div .carousel-caption{
+  color: white;
+  background-color: #8C503A;
+  font-size: small;
+}
+
+div .form-group{
+  color: #024059;
+  font-size: large;
+}
+
+div .text-center{
+  color: #024059;
+  font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+

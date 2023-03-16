@@ -1,0 +1,75 @@
+<div style="text-align: right;">
+  <button i18n class="btn btn-lg btn-darkbtn btn-secondary  from-control"
+    routerLink="/artwork/list/artists">Return to Artworks</button>
+</div>
+<div class="container mt-4">
+  <h2 class="text-center">Assign image to the artwork </h2>
+  <h3 class="text-center">Artwork Name: {{nameArtwork}}</h3>
+  <form [formGroup]="imageForm" (ngSubmit)="!imageForm.invalid && assignImageToArtwork(imageForm.value)">
+
+    <!--URL-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="source">URL</label></strong>
+      <input novalidate id="source" class="form-control" formControlName="source"
+        placeholder="URL to the image of the artwork" />
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+          imageForm.get('source')!.hasError('required') &&
+          imageForm.get('source')!.touched">
+        URL required
+      </div>
+    </div><br />
+
+    <!--altText-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="altText">Alt Text</label></strong>
+      <input novalidate id="altText" class="form-control" formControlName="altText" placeholder="Image description" />
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+          imageForm.get('altText')!.hasError('required') &&
+          imageForm.get('altText')!.touched">
+        Alt Text is required
+      </div>
+    </div><br />
+
+
+    <!--width-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="width">Width (px)</label></strong>
+      <input type="number" min="0" novalidate id="width" class="form-control" formControlName="width"
+        placeholder="Width of the image in pixels" />
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+          imageForm.get('width')!.hasError('required') &&
+          imageForm.get('width')!.touched">
+        Width is required
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="imageForm.get('width')!.hasError('min')">
+        Width can not be less than 0
+      </div>
+    </div><br />
+
+    <!--height-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="height">Height (px)</label></strong>
+      <input type="number" min="0" novalidate id="height" class="form-control" formControlName="height"
+        placeholder="Height of the image in pixels" />
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+              imageForm.get('height')!.hasError('required') &&
+              imageForm.get('height')!.touched">
+        Height is required
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="imageForm.get('height')!.hasError('min')">
+        Height can not be less than 0
+      </div>
+    </div><br />
+
+    <div class="form-group mx-sm-3 mb-2 pr-2">
+      <div class="mr-2 ml-2" style="text-align: right;">
+        <button type="button" class="btn btn-danger ml-3 mr-3" (click)="cancelCreation()">
+          Cancel
+        </button>&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btn-success ml-3 mr-3" [disabled]="!imageForm.valid">
+          Save
+        </button>
+      </div>
+    </div>
+  </form>
+</div>

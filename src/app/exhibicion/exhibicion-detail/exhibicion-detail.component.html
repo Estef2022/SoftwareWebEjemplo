@@ -1,0 +1,40 @@
+<div  style="text-align: right;">
+  <button i18n class="btn btn-lg btn-darkbtn btn-secondary  from-control" (click)="submitVolver()" >Return</button>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-7">
+      <p i18n class="h3 p-3" style="color: #024059; text-align: center;">
+        {{exhibicionDetail.name }}</p>
+      <dl style="text-align: center; color: #024059;">
+        <dt i18n>Description</dt>
+          <dd>{{ exhibicionDetail.description }}</dd>
+      </dl>
+    </div>
+    <div class="col-5">
+      <div class="thumb">
+        <p i18n class="h3 p-3" style="color: #024059; text-align: center;">
+          Art Works</p>
+        <table class="table" summary="exhibiciones" >
+          <thead>
+            <tr>
+              <th i18n class="h4" scope="col">Name</th>
+              <th i18n class="h4" scope="col">Year</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let c of artWorks" style="color: #024059;">
+              <td>
+                <a class="link"  routerLink="/artwork/{{c.id}}"> {{c.name}}</a>
+              </td>
+              <td>
+                <a>{{c.year}}</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+ </div>

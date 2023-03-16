@@ -1,0 +1,55 @@
+<div style="text-align: right;" *ngIf="!searchedById">
+  <button i18n class="btn btn-lg btn-darkbtn btn-secondary  from-control" (click)="submitVolver()">Return</button>
+</div>
+<br />
+<div class="container-fluid" id="container-detalle">
+  <div class="card justify-content-center" id="descripcion-obra">
+    <div class="card-body" id="detalle" style="width: 100%">
+      <h1 class="card-title">{{ artworkDetail.name }}</h1>
+      <hr />
+      <div class="row">
+        <div class="col-8">
+          <dl>
+            <dt i18n>Year</dt>
+            <dd>{{ artworkDetail.year }}</dd>
+          </dl>
+          <dl>
+            <dt i18n>Type</dt>
+            <dd>{{ artworkDetail.type }}</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt i18n>Description</dt>
+            <dd>{{ artworkDetail.description }}</dd>
+          </dl>
+          <hr />
+          <dl>
+            <dt i18n>Artist</dt>
+            <dd>{{ artworkDetail.artist.name }}</dd>
+          </dl>
+          <dl>
+            <dt i18n>Birthplace</dt>
+            <dd>{{ artworkDetail.artist.birthplace }}</dd>
+          </dl>
+          <hr />
+          <a i18n class="link"
+            routerLink="/image/create/{{artworkDetail.name}}/{{artworkDetail.artist.id}}/{{artworkDetail.id}}">Assign
+            image to the artwork</a>
+          <hr />
+
+        </div>
+        <div class="col-4">
+          <ngb-carousel>
+            <ng-template ngbSlide *ngFor="let image of artworkDetail.images">
+              <img class="img-fluid" style="width: 100%;" src="{{image.source}}" alt="{{image.altText}}">
+              <div class="carousel-caption d-none">
+                <h5 style="color: #E3D9D1">{{image.altText}}</h5>
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

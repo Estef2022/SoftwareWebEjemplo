@@ -1,0 +1,109 @@
+
+<div class="container mt-4">
+  <h2 i18n class="text-center">Create new artist</h2>
+  <form
+    [formGroup]="artistForm"
+    (ngSubmit)="!artistForm.invalid && createArtist(artistForm.value)"
+  >
+    <!--Name-->
+    <div i18n class="form-group mx-sm-3 mb-2">
+      <strong><label for="name">Name</label></strong>
+      <input
+        novalidate
+        id="name"
+        class="form-control"
+        formControlName="name"
+        placeholder="Artist's name"
+      />
+      <div
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          artistForm.get('name')!.hasError('required') &&
+          artistForm.get('name')!.touched
+        "
+      >
+        Name required
+      </div>
+      <div
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="artistForm.get('name')!.hasError('minlength')"
+      >
+        Name too short
+      </div>
+    </div><br/>
+
+    <!--Birth Place-->
+    <div i18n class="form-group mx-sm-3 mb-2">
+      <strong><label for="birthplace">Birth place</label></strong>
+      <input
+        novalidate
+        id="birthplace"
+        class="form-control"
+        formControlName="birthplace"
+        placeholder="Artist's birth place"
+      />
+      <div
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          artistForm.get('birthplace')!.hasError('required') &&
+          artistForm.get('birthplace')!.touched
+        "
+      >
+        Birth place required
+      </div>
+    </div><br/>
+
+    <!--Birth Date-->
+    <div i18n class="form-group mx-sm-3 mb-2">
+    <strong><label for="birthdate">Birth date</label></strong>
+      <input
+        novalidate
+        id="birthdate"
+        class="form-control"
+        formControlName="birthdate"
+        placeholder="Artist's birth date format (YYYY-MM-DD)"
+      />
+      <div
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          artistForm.get('birthdate')!.hasError('required') &&
+          artistForm.get('birthdate')!.touched
+        "
+      >
+        Birth date required
+      </div>
+    </div><br/>
+
+    <!--Image-->
+    <div i18n class="form-group mx-sm-3 mb-2">
+    <strong><label for="image">Image</label></strong>
+      <input
+        novalidate
+        id="image"
+        class="form-control"
+        formControlName="image"
+        placeholder="URL with Author's image"
+      />
+      <div
+        class="alert alert-danger alert-dismissible fade show"
+        *ngIf="
+          artistForm.get('image')!.hasError('required') &&
+          artistForm.get('image')!.touched
+        "
+      >
+        Image required
+      </div>
+    </div><br/>
+
+    <div class="form-group mx-sm-3 mb-2 pr-2">
+      <div class="mr-2 ml-2" style="text-align: right;">
+        <button type="button" class="btn btn-danger ml-3 mr-3" (click)="cancelCreation()">
+          Cancel
+        </button>&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btn-success ml-3 mr-3" [disabled]="!artistForm.valid">
+          Save
+        </button>
+      </div>
+    </div>
+  </form>
+ </div>

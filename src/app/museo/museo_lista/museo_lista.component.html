@@ -1,0 +1,31 @@
+
+<div>
+<h1
+i18n>List of museums</h1>
+</div>
+<div *ngIf="!ready" ><img src="assets/cargando.gif" alt="cargando"></div>
+
+<div *ngIf="selected">
+  <app-museo [museoDetail]="selectedMuseo" (volver)="procesaVolver($event)" ></app-museo>
+</div>
+<div *ngIf="!selected">
+  <div class="row">
+    <div class="col-md-10">
+  </div>
+<hr />
+<div class="container-fluid">
+  <div class="row">
+    <div class="col mb-3" *ngFor="let museo of museos">
+           <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{{museo.image}}" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">{{ museo.name }}</h2>
+              <p class="card-text">{{ museo.address }}</p>
+              <a i18n
+              (click)="onSelected(museo)" class="btn btn-Light">See detail</a>
+            </div>
+          </div>
+      </div>
+   </div>
+</div>
+</div>

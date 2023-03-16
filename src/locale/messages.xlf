@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/alert/alert.ts</context>
+          <context context-type="linenumber">79,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION" equiv-text="arrow left&apos; and"/> of <x id="INTERPOLATION_1" equiv-text="@Input() keyb"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">154,161</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">184</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">267,268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">295,296</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">316,318</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">333,335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">348</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">364</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">380,381</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="color variants,"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">67,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">138,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">161,163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">182,183</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">219,223</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">243,244</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">270,272</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">289,290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/toast/toast.ts</context>
+          <context context-type="linenumber">110,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2230173500909677923" datatype="html">
+        <source>Museum</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5963681075732075869" datatype="html">
+        <source> Museums </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7906458871395232033" datatype="html">
+        <source>List</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5674286808255988565" datatype="html">
+        <source>Create</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4377092032106909109" datatype="html">
+        <source>Exhibitions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1088376530942419040" datatype="html">
+        <source>Artworks</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6680528661876196212" datatype="html">
+        <source> Artists </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">80,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2049937896944038309" datatype="html">
+        <source>Art Museums</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7580037662100407939" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>@2022 Art Museums<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2544569632476723854" datatype="html">
+        <source>Terms</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5736481176444461852" datatype="html">
+        <source>About Us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3324791302946101916" datatype="html">
+        <source>Create new artist</source>
+        <target>Crear nuevo artista</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artist/artist-create/artist-create.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4772594586283160537" datatype="html">
+        <source><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;name&quot;&gt;"/>Name<x id="CLOSE_TAG_LABEL" ctype="x-label"
+        equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;name&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;name&quot;
+        placeholder=&quot;Artist&apos;s name&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          artistForm.get(&apos;name&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          artistForm.get(&apos;name&apos;)!.touched
+        &quot;
+      &gt;"/> Name required <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;artistForm.get(&apos;name&apos;)!.hasError(&apos;minlength&apos;)&quot;
+      &gt;"/> Name too short <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;name&quot;&gt;"/>Nombre<x id="CLOSE_TAG_LABEL" ctype="x-label"
+        equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;name&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;name&quot;
+        placeholder=&quot;Artist&apos;s name&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          artistForm.get(&apos;name&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          artistForm.get(&apos;name&apos;)!.touched
+        &quot;
+      &gt;"/> Nombre requerido <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;artistForm.get(&apos;name&apos;)!.hasError(&apos;minlength&apos;)&quot;
+      &gt;"/> Nombre muy corto <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artist/artist-create/artist-create.component.html</context>
+          <context context-type="linenumber">10,32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo-create/museo-create.component.html</context>
+          <context context-type="linenumber">10,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6845310689423898741" datatype="html">
+        <source><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;birthPlace&quot;&gt;"/>Birth place<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;birthPlace&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;birthPlace&quot;
+        placeholder=&quot;Artist&apos;s birth place&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          artistForm.get(&apos;birthPlace&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          artistForm.get(&apos;birthPlace&apos;)!.touched
+        &quot;
+      &gt;"/> Birth place required <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;birthPlace&quot;&gt;"/>Lugar de nacimiento<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;birthPlace&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;birthPlace&quot;
+        placeholder=&quot;Artist&apos;s birth place&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          artistForm.get(&apos;birthPlace&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          artistForm.get(&apos;birthPlace&apos;)!.touched
+        &quot;
+      &gt;"/> Lugar de nacimiento requerido <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artist/artist-create/artist-create.component.html</context>
+          <context context-type="linenumber">37,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6034667296477786093" datatype="html">
+        <source><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;birthDate&quot;&gt;"/>Birth date<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;birthDate&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;birthDate&quot;
+        placeholder=&quot;Artist&apos;s birth date&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          artistForm.get(&apos;birthDate&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          artistForm.get(&apos;birthDate&apos;)!.touched
+        &quot;
+      &gt;"/> Birth date required <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;birthDate&quot;&gt;"/>Fecha de nacimiento<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;birthDate&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;birthDate&quot;
+        placeholder=&quot;Artist&apos;s birth date&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          artistForm.get(&apos;birthDate&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          artistForm.get(&apos;birthDate&apos;)!.touched
+        &quot;
+      &gt;"/> Fecha de nacimiento requerido <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artist/artist-create/artist-create.component.html</context>
+          <context context-type="linenumber">58,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="984321149216718583" datatype="html">
+        <source><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;image&quot;&gt;"/>Image<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;image&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;image&quot;
+        placeholder=&quot;URL with Author&apos;s image&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          artistForm.get(&apos;image&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          artistForm.get(&apos;image&apos;)!.touched
+        &quot;
+      &gt;"/> Image required <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;image&quot;&gt;"/>Imagen<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;image&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;image&quot;
+        placeholder=&quot;URL with Author&apos;s image&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          artistForm.get(&apos;image&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          artistForm.get(&apos;image&apos;)!.touched
+        &quot;
+      &gt;"/> Imagen requerida <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artist/artist-create/artist-create.component.html</context>
+          <context context-type="linenumber">79,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2330577642930707695" datatype="html">
+        <source> Cancel </source>
+        <target> Cancelar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artist/artist-create/artist-create.component.html</context>
+          <context context-type="linenumber">102,104</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo-create/museo-create.component.html</context>
+          <context context-type="linenumber">102,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3620188369327429839" datatype="html">
+        <source> Save </source>
+        <target> Guardar </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artist/artist-create/artist-create.component.html</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo-create/museo-create.component.html</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2004525939104953581" datatype="html">
+        <source>Museum Artworks: <x id="INTERPOLATION" equiv-text="{{ museumAux.name }}"/> (<x id="INTERPOLATION_1" equiv-text="{{ museumAux.city }}"/>)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2839934830163038885" datatype="html">
+        <source>Artist Artworks : <x id="INTERPOLATION" equiv-text="{{ artistAux.name }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4311700035979610543" datatype="html">
+        <source>Search artwork by artist: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4580988005648117665" datatype="html">
+        <source>Search</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2492300395471245755" datatype="html">
+        <source>Artist</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8005524239342408460" datatype="html">
+        <source> Author: <x id="INTERPOLATION" equiv-text="{{ artistAux.name }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2746330872191146871" datatype="html">
+        <source>There aren&apos;t artworks related to the museum or exhibitions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8518958070193835562" datatype="html">
+        <source>Type: <x id="INTERPOLATION" equiv-text="{{ artwork.type }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1326062675840967062" datatype="html">
+        <source>See detail</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork-list/artwork-list.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo_lista/museo_lista.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7286475218857509962" datatype="html">
+        <source>Return</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion-detail/exhibicion-detail.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1464072562214937907" datatype="html">
+        <source>Year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion-detail/exhibicion-detail.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8650499415827640724" datatype="html">
+        <source>Type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4902817035128594900" datatype="html">
+        <source>Description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion-detail/exhibicion-detail.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8174375854720578083" datatype="html">
+        <source>Birthplace</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/artwork/artwork.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="466492426610382126" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{exhibicionDetail.name }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion-detail/exhibicion-detail.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2119213754364497203" datatype="html">
+        <source> Art Works</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion-detail/exhibicion-detail.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8953033926734869941" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion-detail/exhibicion-detail.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="135775929837580698" datatype="html">
+        <source>Exhibition List</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8943389006796894870" datatype="html">
+        <source> There are no exhibits for the museum</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/exhibicion/exhibicion.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5502792470376744987" datatype="html">
+        <source>Create new museum</source>
+        <target>Crear nuevo museo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo-create/museo-create.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="893456934644990470" datatype="html">
+        <source><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;city&quot;&gt;"/>City<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;city&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;city&quot;
+        placeholder=&quot;City ​​where the museum is located&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          museumForm.get(&apos;city&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          museumForm.get(&apos;city&apos;)!.touched
+        &quot;
+      &gt;"/> City required <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;city&quot;&gt;"/>Ciudad<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;city&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;city&quot;
+        placeholder=&quot;City ​​where the museum is located&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          museumForm.get(&apos;city&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          museumForm.get(&apos;city&apos;)!.touched
+        &quot;
+      &gt;"/> Ciudad requerida <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo-create/museo-create.component.html</context>
+          <context context-type="linenumber">37,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="727539752545138388" datatype="html">
+        <source><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;address&quot;&gt;"/>Address<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;address&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;address&quot;
+        placeholder=&quot;Museum address&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          museumForm.get(&apos;address&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          museumForm.get(&apos;address&apos;)!.touched
+        &quot;
+      &gt;"/> Address required <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;address&quot;&gt;"/>Dirección<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;address&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;address&quot;
+        placeholder=&quot;Museum address&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          museumForm.get(&apos;address&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          museumForm.get(&apos;address&apos;)!.touched
+        &quot;
+      &gt;"/> Dirección requerida <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo-create/museo-create.component.html</context>
+          <context context-type="linenumber">58,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3614214981219409776" datatype="html">
+        <source><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;description&quot;&gt;"/>Description<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;descripcion&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;descripcion&quot;
+        placeholder=&quot;Museum description&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          museumForm.get(&apos;description&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          museumForm.get(&apos;description&apos;)!.touched
+        &quot;
+      &gt;"/> Description required <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+      <target><x id="START_TAG_LABEL" ctype="x-label" equiv-text="&lt;label for=&quot;description&quot;&gt;"/>Descripción<x id="CLOSE_TAG_LABEL" ctype="x-label" equiv-text="&lt;/label&gt;"/><x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input
+        novalidate
+        id=&quot;descripcion&quot;
+        class=&quot;form-control&quot;
+        formControlName=&quot;descripcion&quot;
+        placeholder=&quot;Museum description&quot;
+      /&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div
+        class=&quot;alert alert-danger alert-dismissible fade show&quot;
+        *ngIf=&quot;
+          museumForm.get(&apos;description&apos;)!.hasError(&apos;required&apos;) &amp;&amp;
+          museumForm.get(&apos;description&apos;)!.touched
+        &quot;
+      &gt;"/> Descripción requerida <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo-create/museo-create.component.html</context>
+          <context context-type="linenumber">79,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4812409077481876288" datatype="html">
+        <source><x id="START_TAG_DT" ctype="x-dt" equiv-text="&lt;dt&gt;"/>Description<x id="CLOSE_TAG_DT" ctype="x-dt" equiv-text="&lt;/dt&gt;"/><x id="START_TAG_DD" ctype="x-dd" equiv-text="&lt;dd&gt;"/><x id="INTERPOLATION" equiv-text="{{ museoDetail.description }}"/><x id="CLOSE_TAG_DD" ctype="x-dd" equiv-text="&lt;/dd&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4691409716571471923" datatype="html">
+        <source><x id="START_TAG_DT" ctype="x-dt" equiv-text="&lt;dt&gt;"/>Address<x id="CLOSE_TAG_DT" ctype="x-dt" equiv-text="&lt;/dt&gt;"/><x id="START_TAG_DD" ctype="x-dd" equiv-text="&lt;dd&gt;"/><x id="INTERPOLATION" equiv-text="{{ museoDetail.address }}"/><x id="CLOSE_TAG_DD" ctype="x-dd" equiv-text="&lt;/dd&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7450734245341166713" datatype="html">
+        <source><x id="START_TAG_DT" ctype="x-dt" equiv-text="&lt;dt&gt;"/>City<x id="CLOSE_TAG_DT" ctype="x-dt" equiv-text="&lt;/dt&gt;"/><x id="START_TAG_DD" ctype="x-dd" equiv-text="&lt;dd&gt;"/><x id="INTERPOLATION" equiv-text="{{ museoDetail.city }}"/><x id="CLOSE_TAG_DD" ctype="x-dd" equiv-text="&lt;/dd&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2831816859693678805" datatype="html">
+        <source>See museum exhibits</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9178930090285686256" datatype="html">
+        <source>See artworks from the museum</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5033553861490858970" datatype="html">
+        <source>List of museums</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/museo/museo_lista/museo_lista.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

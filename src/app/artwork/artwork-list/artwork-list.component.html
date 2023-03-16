@@ -1,0 +1,80 @@
+<div *ngIf="!ready"><img src="assets/cargando.gif" alt="uploading" /></div>
+
+<div *ngIf="selected">
+  <app-artwork
+    [artistId]="selectedArtistId"
+    [artworkDetail]="selectedArtwork"
+    (volver)="procesaVolver($event)"
+  ></app-artwork>
+</div>
+
+<div *ngIf="!selected">
+  <div class="row">
+    <div class="col-md-10">
+      <div *ngIf="museumAux != null">
+        <h1 i18n>
+          Museum Artworks: {{ museumAux.name }} ({{ museumAux.city }})
+        </h1>
+      </div>
+      <div *ngIf="artistAux != null">
+        <h1 i18n>Artist Artworks : {{ artistAux.name }}</h1>
+      </div>
+      <div *ngIf="museumAux == null">
+        <h1 i18n>Search artwork by artist:</h1>
+      </div>
+    </div>
+  </div>
+
+  <p></p>
+  <div class="container-fluid">
+    <div class="row">
+      <form>
+        <div class="input-group mb-4 col-4" *ngIf="museumAux == null">
+          <select
+            class="custom-select"
+            (change)="artistFilter($event)"
+            aria-label="selected by artist"
+            lang="en"
+          >
+            <option selected i18n>Search</option>
+            <option *ngFor="let artist of artistList" [value]="artist.id">
+              {{ artist.name }}
+            </option>
+          </select>
+          <div class="input-group-append">
+            <label class="input-group-text" i18n>Artist</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col mb-3" *ngFor="let artwork of artworks">
+        <div class="card" style="width: 18rem">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="{{ artwork.mainImage }}"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h2 class="card-title">{{ artwork.name }}</h2>
+              <p i18n class="card-text" *ngIf="artistAux != null">
+                Author: {{ artistAux.name }}
+              </p>
+              <div class="col mb-12" *ngIf="artworks.length == 0">
+                <h2 i18n>
+                  There aren't artworks related to the museum or exhibitions
+                </h2>
+              </div>
+              <p i18n class="card-text">Type: {{ artwork.type }}</p>
+              <a i18n (click)="onSelected(artwork)" class="btn btn-Light"
+                >See detail</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p></p>
+  </div>
+</div>

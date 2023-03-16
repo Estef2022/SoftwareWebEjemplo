@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title i18n>Museum</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <main>
+    <body>
+      <div class="top">
+        <nav
+          class="navbar navbar-expand-md navbar-museum"
+          aria-label="navigate"
+          lang="en"
+        >
+          <div
+            class="collapse navbar-collapse"
+            id="navbarMuseosdeArte"
+            lang="en"
+          >
+            <ul class="navbar-nav mr-auto">
+
+              <li class="nav-item dropdown">
+                <a i18n
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Museums
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li  class="nav-item">
+                    <a i18n class="nav-link dropdown-item"routerLink="/museums/list">List</a>
+                  </li>
+                  <li  class="nav-item">
+                    <a i18n class="nav-link dropdown-item" routerLink="/museums/create">Create</a>
+                    </li>
+                  </ul>
+                </li>
+
+              <li class="nav-item">
+                <a
+                  i18n
+                  class="nav-link"
+                  lang="en"
+                  routerLink="/exhibitions/list"
+                  lang="en"
+                  >Exhibitions</a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Artworks
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li  class="nav-item">
+                    <a class="nav-link dropdown-item" routerLink="/artwork/list/artists">List</a>
+                  </li>
+                  <li  class="nav-item">
+                    <a class="nav-link dropdown-item" routerLink="/artwork/create">Create</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Artists
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li  class="nav-item">
+                    <a i18n class="nav-link dropdown-item"routerLink="/artists/create">Create</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <a i18n class="navbar-brand" href="#" lang="en">Art Museums</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            lang="en"
+          >
+            <span class="navbar-toggler-icon" lang="en"></span>
+          </button>
+          <img
+            class="img-responsive"
+            height="50px"
+            alt="logo"
+            src="assets/logo-museum.png"
+            lang="en"
+          />
+        </nav>
+      </div>
+      <p></p>
+      <div class="center">
+        <router-outlet></router-outlet>
+      </div>
+    </body>
+    <p></p>
+    <footer>
+      <div class="footer-responsive">
+        <nav class="navbar navbar-expand-lg navbar-museum" aria-label="menu">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a i18n class="nav-link" href="#" lang="en"
+                  ><strong>@2022 Art Museums</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a i18n class="nav-link" href="#" lang="en">Terms</a>
+              </li>
+              <li class="nav-item">
+                <a i18n class="nav-link" href="#" lang="en">About Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="#" class="fa fa-facebook" aria-label="Facebook"></a>
+          <a href="#" class="fa fa-twitter" aria-label="Twitter"></a>
+          <a href="#" class="fa fa-instagram" aria-label="Instagram"></a>
+        </nav>
+      </div>
+    </footer>
+  </main>
+</html>

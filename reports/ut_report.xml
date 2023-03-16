@@ -1,0 +1,53 @@
+<testExecutions version="1">
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should create the app" duration="107"/>
+    <testCase name="AppComponent should have as title 'museums-front'" duration="14"/>
+  </file>
+  <file path="src/app/artist/artist.service.spec.ts">
+    <testCase name="Service: Artist should create ok" duration="5"/>
+    <testCase name="Service: Artist #getMuseoList if consume getArtist returned Observable should match the right data" duration="7"/>
+  </file>
+  <file path="src/app/exhibicion/exhibicion.component.spec.ts">
+    <testCase name="Componente: ArtworkList should create" duration="11"/>
+    <testCase name="Componente: ArtworkList if consume getArtist returned all artists" duration="8"/>
+    <testCase name="Componente: ArtworkList if consume onSelected" duration="8"/>
+    <testCase name="Componente: ArtworkList if consume getArtworksByArtistId returned all artworks for this artist" duration="9"/>
+    <testCase name="exhibicionListComponent Componente: ArtworkList should create" duration="49"/>
+    <testCase name="exhibicionListComponent Componente: ArtworkList if consume getExhibitions returned all exhibitions" duration="9"/>
+  </file>
+  <file path="src/app/museo/museo_lista/museo.component.spec.ts">
+    <testCase name="Component: Museo should create" duration="20"/>
+    <testCase name="Component: Museo museoListComponent #volver equals false if submitVolver()" duration="11"/>
+  </file>
+  <file path="src/app/artwork/artwork-list/artwork.service.spec.ts">
+    <testCase name="Service: Artwork if consume getArtist returned Observable should match the right data" duration="4"/>
+    <testCase name="Service: Artwork should create ok" duration="3"/>
+  </file>
+  <file path="src/app/exhibicion/exhibicion-detail/exhibicion-detail.component.spec.ts">
+    <testCase name="ExhibicionDetailComponent should create" duration="19"/>
+  </file>
+  <file path="src/app/images/images.service.spec.ts">
+    <testCase name="Service: Images should create ok" duration="4"/>
+    <testCase name="Service: Images #getAllImages if consume getAllImages returned Observable should match the right data" duration="4"/>
+  </file>
+  <file path="src/app/museo/museo_lista/museo_lista.component.spec.ts">
+    <testCase name="Service: Museo #getMuseoList returned Observable should match the right data" duration="5"/>
+    <testCase name="Service: Museo should ..." duration="3"/>
+  </file>
+  <file path="src/app/artwork/artwork.component.spec.ts">
+    <testCase name="Componente: Artwork if consume submitVolver" duration="14"/>
+    <testCase name="Componente: Artwork should create" duration="5"/>
+    <testCase name="Componente: Artwork should card-title exist&quot;" duration="8"/>
+  </file>
+  <file path="src/app/interceptors/httpErrorInterceptor.service.spec.ts">
+    <testCase name="Service: HttpErrorInterceptorService should ..." duration="3"/>
+  </file>
+  <file path="src/app/museo/museo_lista/museo_lista.component.spec.ts">
+    <testCase name="Service: Museo #getMuseoList returned Observable should match the right data" duration="4"/>
+    <testCase name="Service: Museo should ..." duration="3"/>
+  </file>
+  <file path="src/app/exhibicion/exhibicion.service.spec.ts">
+    <testCase name="Service: Exhibicion should create ok" duration="6"/>
+    <testCase name="Service: Exhibicion if consume getExhibicionByArtistId returned Observable should match the right data" duration="3"/>
+  </file>
+</testExecutions>

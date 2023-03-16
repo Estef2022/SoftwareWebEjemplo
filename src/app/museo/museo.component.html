@@ -1,0 +1,50 @@
+<div  style="text-align: right;">
+  <button i18n class="btn btn-lg btn-darkbtn btn-secondary  from-control" (click)="submitVolver()">Return</button>
+</div>
+
+<div class="container-fluid">
+
+
+  <div class="row">
+    <div class="col-6">
+      <p class="h1 p-3" style="color: #024059; text-align: center;">
+        {{museoDetail.name }}</p>
+      <dl i18n
+      style="text-align: center; color: #024059;">
+        <dt>Description</dt>
+          <dd>{{ museoDetail.description }}</dd>
+      </dl>
+        <hr />
+      <dl i18n
+      style="text-align: center; color: #024059;">
+        <dt>Address</dt>
+          <dd>{{ museoDetail.address }}</dd>
+      </dl>
+        <hr />
+      <dl i18n
+      style="text-align: center; color: #024059;">
+        <dt>City</dt>
+          <dd>{{ museoDetail.city }}</dd>
+      </dl>
+        <hr />
+        <a i18n
+        class="link"  routerLink="/exhibitions/list/{{museoDetail.id}}">See museum exhibits</a>
+        <hr />
+        <a i18n
+        class="link"  routerLink="/artwork/list/museum/{{museoDetail.id }}">See artworks from the museum</a>
+        <hr />
+
+
+    </div>
+    <div class="col-6">
+      <div class="thumb">
+        <img
+          class="img"
+          style="margin: 10px;"
+          src="{{ museoDetail.image }}"
+          alt="{{ museoDetail.name }}"
+        />
+      </div>
+    </div>
+  </div>
+ </div>

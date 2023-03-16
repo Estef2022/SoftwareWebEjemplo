@@ -1,0 +1,42 @@
+<div>
+  <h1 i18n >Exhibition List</h1>
+</div>
+<div *ngIf="!ready" ><img src="assets/cargando.gif" alt="loading"></div>
+<div *ngIf="selected">
+  <app-exhibicion-detail [exhibicionDetail]="selectedExhibicion" (volver)="procesaVolver($event)" ></app-exhibicion-detail>
+</div>
+<div *ngIf="!selected">
+  <div class="container-fluid">
+    <div class="row">
+      <form>
+        <div class="input-group mb-4 col-4" *ngIf="museoAux==null">
+          <select class="custom-select" (change)="museoFilter($event)" aria-label="Museum Filter">
+            <option i18n selected>Search</option>
+            <option *ngFor="let museum of museoList" [value]="museum.id">
+              {{ museum.name }}
+            </option>
+          </select>
+          <div class="input-group-append">
+            <label i18n class="input-group-text">Museum</label>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col mb-12" *ngIf="exhibitions.length==0">
+        <h2 i18n>
+          There are no exhibits for the museum</h2>
+      </div>
+      <div class="col mb-3 " *ngFor="let exhibition of exhibitions" >
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h2 class="card-title">{{ exhibition.name }}</h2>
+            <a i18n class="btn btn-Light" (click)="onSelected(exhibition)">See detail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,100 @@
+<div style="text-align: right;">
+  <button i18n class="btn btn-lg btn-darkbtn btn-secondary  from-control"
+    routerLink="/artwork/list/artists">Return</button>
+</div>
+<div class="container mt-4">
+  <h2 class="text-center">Create a new artwork</h2>
+  <form [formGroup]="artworkForm" (ngSubmit)="!artworkForm.invalid && createArtwork(artworkForm.value)">
+
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="name">Artist Name</label></strong>
+      <select class="form-control" (change)="artistFilter($event)" aria-label="selected by artist" lang="en">
+        <option *ngFor="let artist of artistList" [value]="artist.id">
+          {{ artist.name }}
+        </option>
+      </select>
+    </div><br />
+
+
+    <!--Artwork name-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="name">Artwork name</label></strong>
+      <input novalidate id="name" class="form-control" formControlName="name" placeholder="Artwork's name" />
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+            artworkForm.get('name')!.hasError('required') &&
+            artworkForm.get('name')!.touched">
+        Name required
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="artworkForm.get('name')!.hasError('maxLength') &&
+        artworkForm.get('name')!.touched">
+        Name too long
+      </div>
+    </div><br />
+
+    <!--Year-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="year">Year of creation</label></strong>
+      <input type="number" min="0" novalidate id="year" class="form-control" formControlName="year"
+        placeholder="Year of creation of the artwork" />
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+          artworkForm.get('year')!.hasError('required') &&
+          artworkForm.get('year')!.touched">
+        Year of creation is required
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="artworkForm.get('year')!.hasError('min')">
+        Year of creation can not be less than 0
+      </div>
+    </div><br />
+
+    <!--Type-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="type">Type of Artwork</label></strong>
+      <select class="form-control" novalidate formControlName="type">
+        <option value="Painting" selected>Painting</option>
+        <option value="Object">Object</option>
+        <option value="Sculpture">Sculpture</option>
+      </select>
+      <!-- error block -->
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+          artworkForm.get('type')!.hasError('required') &&
+          artworkForm.get('type')!.touched">
+        Type is required
+      </div>
+    </div><br />
+
+    <!--Description-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="description">Description</label></strong>
+      <textarea class="form-control" formControlName="description" novalidate></textarea>
+      <!-- error block -->
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+      artworkForm.get('description')!.hasError('required') &&
+      artworkForm.get('description')!.touched">
+        Description is required
+      </div>
+    </div><br />
+
+    <!--mainImage-->
+    <div class="form-group mx-sm-3 mb-2">
+      <strong><label for="mainImage">Principal Image</label></strong>
+      <input novalidate id="mainImage" class="form-control" formControlName="mainImage" placeholder="URL main image" />
+      <div class="alert alert-danger alert-dismissible fade show" *ngIf="
+          artworkForm.get('mainImage')!.hasError('required') &&
+          artworkForm.get('mainImage')!.touched
+        ">
+        Principal Image required
+      </div>
+    </div><br />
+
+    <div class="form-group mx-sm-3 mb-2 pr-2">
+      <div class="mr-2 ml-2" style="text-align: right;">
+        <button type="button" class="btn btn-danger ml-3 mr-3" (click)="cancelCreation()">
+          Cancel
+        </button>&nbsp;&nbsp;&nbsp;
+        <button type="submit" class="btn btn-success ml-3 mr-3" [disabled]="!artworkForm.valid">
+          Save
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
